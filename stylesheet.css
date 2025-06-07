@@ -1,0 +1,184 @@
+.heading {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;    
+}
+.text {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(8, 8, 8, 0.87);
+    text-decoration: none;
+    cursor: pointer;
+    text-underline-offset: 2px; /* Adjusts distance between text and underline */
+}
+.text:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.google-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 9px;
+    width: 22px;
+    height: 22px;
+}
+.google-menu-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Makes it circular */
+    display: flex;
+    justify-self: center;
+}
+.google-menu-container:hover {
+    background-color: rgb(218, 210, 210); /* Slightly darker shade on hover */
+}
+.google-account-logo {
+    width: 30px;
+    height: 30px;   
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.google-account-logo-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Makes it circular */
+    display: flex;
+    justify-self: center;
+    margin-right: 15px;
+}
+.google-account-logo-container:hover {
+    background-color: rgb(218, 210, 210); /* Slightly darker shade on hover */
+}
+.google-logo {
+    display: flex;
+    justify-self: center;
+    margin-top: 50px;
+    height: 92px;
+    width: 272px;
+}
+.search-bar-container {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 10px 15px;
+    width: 800px; /* Adjust width as needed */
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    margin-top: 70px;
+}
+.search-bar {
+    flex: 1; /* Takes full width */
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: Segoe UI, Tahoma, sans-serif;
+    color: rgba(8, 8, 8, 0.87);
+    width: 700px;
+    padding: 5px;
+}
+/* Hover effect */
+.search-bar-container:hover {
+    box-shadow: 0 1px 8px rgba(32, 33, 36, 0.35);
+}
+.bi-bi-search {
+    color: rgba(104, 98, 98, 0.87);
+}
+.google-mic {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+.google-cam {
+    width: 20px;
+    margin-bottom: -6px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;   
+}
+.group-container {
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers items vertically */       
+    width: 100px;
+    height: 100px;   
+    padding: 20 30 30 5px; /* Uniform padding */
+    cursor: pointer;
+}
+.group-container:hover {
+    background-color: rgb(218, 210, 210); /* Slightly darker shade on hover */
+}
+.group-container-items {
+    display: flex;   
+    align-items:flex-start;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.three-dots-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;  
+    border-radius: 50%; /* Makes it circular */    
+    color: rgba(104, 98, 98, 0.87);
+    opacity: 0; /* Hide by default */
+    transition: opacity 0.3s ease; /* Smooth fade-in effect */
+}
+.group-container:hover > .group-container-items > .three-dots-container {
+    opacity: 1;
+}
+.three-dots-container:hover {
+    background-color: rgb(197, 189, 189); /* Dark background */
+}
+.three-dots {
+    width: 18px;
+    height: 18px;
+    color: rgba(104, 98, 98, 0.87);
+}
+.icon-container {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(218, 210, 210);
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    border-radius: 50%; /* Optional: Makes it circular */ 
+
+}
+.icon-container2 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(235, 228, 228);
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    border-radius: 50%; /* Optional: Makes it circular */ 
+    margin-left: -17px;
+
+}
+.chat-gpt {
+    width: 25px;
+    height: auto; /* Keeps aspect ratio */
+}
+.text1 {
+    font-family: Segoe UI, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(8, 8, 8, 0.87);
+}
+.youtube {
+    width: 30px;
+    height: auto;
+}
