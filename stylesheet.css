@@ -60,9 +60,9 @@
 .google-logo img {
     height: 92px;
     width: 272px;
-}.search-bar-container {
+}
+.search-bar-container {
     display: flex;
-    justify-self: center;
     align-items: center;
     background: #fff;
     border: 1px solid #dfe1e5;
@@ -70,7 +70,7 @@
     padding: 10px 15px;
     width: 800px; /* Adjust width as needed */
     box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
-    margin-top: 70px;
+    margin: 70px auto 0 auto;
 }
 .search-bar {
     flex: 1; /* Takes full width */
