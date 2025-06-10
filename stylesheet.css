@@ -61,6 +61,11 @@
     height: 92px;
     width: 272px;
 }
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 .search-bar-container {
     display: flex;
     align-items: center;
@@ -70,7 +75,7 @@
     padding: 10px 15px;
     width: 800px; /* Adjust width as needed */
     box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
-    margin: 70px auto 0 auto;
+    margin: 70px;
 }
 .search-bar {
     flex: 1; /* Takes full width */
