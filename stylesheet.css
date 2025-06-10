@@ -54,13 +54,13 @@
     background-color: rgb(218, 210, 210); /* Slightly darker shade on hover */
 }
 .google-logo {
-    display: flex;
-    justify-self: center;
+    text-align: center;
     margin-top: 50px;
+}
+.google-logo img {
     height: 92px;
     width: 272px;
-}
-.search-bar-container {
+}.search-bar-container {
     display: flex;
     justify-self: center;
     align-items: center;
