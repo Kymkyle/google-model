@@ -62,14 +62,12 @@
     width: 272px;
 }
 .center-wrapper {
-  display: flex;
-  justify-content:center;
-  width: 100%;
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    margin-top: -60px;
 }
 .search-bar-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; /* <-- Change this line */
     background: #fff;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
@@ -78,23 +76,33 @@
     box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
     margin: 70px;
 }
+.input-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* <-- Change this line */
+    width: 100%; /* Ensures the input takes full width */
+}
 .left-group {
     display: flex;
     flex-direction: row;
-    align-items: left;
+    justify-content: flex-start;
+    align-items: center;
     gap: 10px;
-    flex: 1; /* allows search bar to grow */
+    flex: 2; /* allows search bar to grow */
 }
 
 .right-group {
     display: flex;
+    flex: 1; /* allows search bar to grow */
     flex-direction: row;
-    align-items: right;
+    justify-content: end;
+    align-items: center;
     gap: 10px;
 }
 
 .search-bar {
-    flex: 1; /* makes input grow */
+    display: flex;
+    flex: 2; /* makes input grow */
     border: none;
     outline: none;
     font-size: 16px;
@@ -124,7 +132,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-top: 20px;   
+    margin-top: -40px;   
 }
 .group-container {
     display: flex; /* Enables flexbox */
